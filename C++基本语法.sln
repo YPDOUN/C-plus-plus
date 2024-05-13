@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "智能指针", "智能指�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++复制与拷贝函数", "C++复制与拷贝函数\C++复制与拷贝函数.vcxproj", "{7ABED766-D8C1-4C40-B7F6-A21A6485BCCA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "箭头操作符", "箭头操作符\箭头操作符.vcxproj", "{7F3806D1-9E24-401C-AE28-141DC52EC24E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{7ABED766-D8C1-4C40-B7F6-A21A6485BCCA}.Release|x64.Build.0 = Release|x64
 		{7ABED766-D8C1-4C40-B7F6-A21A6485BCCA}.Release|x86.ActiveCfg = Release|Win32
 		{7ABED766-D8C1-4C40-B7F6-A21A6485BCCA}.Release|x86.Build.0 = Release|Win32
+		{7F3806D1-9E24-401C-AE28-141DC52EC24E}.Debug|x64.ActiveCfg = Debug|x64
+		{7F3806D1-9E24-401C-AE28-141DC52EC24E}.Debug|x64.Build.0 = Debug|x64
+		{7F3806D1-9E24-401C-AE28-141DC52EC24E}.Debug|x86.ActiveCfg = Debug|Win32
+		{7F3806D1-9E24-401C-AE28-141DC52EC24E}.Debug|x86.Build.0 = Debug|Win32
+		{7F3806D1-9E24-401C-AE28-141DC52EC24E}.Release|x64.ActiveCfg = Release|x64
+		{7F3806D1-9E24-401C-AE28-141DC52EC24E}.Release|x64.Build.0 = Release|x64
+		{7F3806D1-9E24-401C-AE28-141DC52EC24E}.Release|x86.ActiveCfg = Release|Win32
+		{7F3806D1-9E24-401C-AE28-141DC52EC24E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

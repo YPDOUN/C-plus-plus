@@ -4,7 +4,7 @@ using namespace std;
     浅层拷贝 直接把类赋值给一个新类 例如下面的 String second = string; 默认拷贝构造函数就是浅层拷贝
 	只是直接复制指针 所以新类的m_Buffer也指向同一块区域 会造成悬空指针
 
-
+	深层拷贝 复制对象本身还会复制所有嵌套对象 并都有其独立空间 完全独立
 */
 class String
 {
