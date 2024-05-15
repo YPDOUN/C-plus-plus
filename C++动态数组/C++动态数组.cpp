@@ -7,7 +7,9 @@ using namespace std;
 	创建方法：
 	        std::vector<element> myVector
 	打印数据方法：
-	           1.迭代器：for (auto it = myVector.begin(); it != myVector.end(); ++it)
+	           1.迭代器：for (auto it = myVector.begin(); it != myVector.end(); ++it) 
+			     使用这种方法当遇到erase元素时,如：it = other.m_Array.erase(it); 可能会导致it无法正确更新 导致出错
+				 应使用while(it != myVector.end())   if() ...  else ++i; 才能保证有效更新
 			   2.范围循环：for(element Myname:container) 例如：for(int myname: myvector) -> 适用于数组或者字符串打印
 			   用引用更好，减少复制的次数，加上const防止元素被修改出错const element& myname
 	添加元素：
